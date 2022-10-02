@@ -99,7 +99,7 @@ While the following patterns are considered violations:
 
 ### always-known
 
-If the first option is `"known"`, then [Media Use Custom Media] requires all
+If the first option is `"always-known"`, then [Media Use Custom Media] requires all
 `@media` queries to use known Custom Media from either `@custom-media`
 declarations in the file or imported using the second option. Then the
 following patterns are _not_ considered violations:
