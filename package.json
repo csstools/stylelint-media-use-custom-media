@@ -1,6 +1,6 @@
 {
   "name": "stylelint-media-use-custom-media",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Enforce usage of custom media queries in CSS",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
