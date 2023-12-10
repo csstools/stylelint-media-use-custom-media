@@ -1,7 +1,7 @@
 # Media Use Custom Media [<img src="https://jonathantneal.github.io/stylelint-logo.svg" alt="stylelint" width="90" height="90" align="right">][stylelint]
 
 [![NPM Version][npm-img]][npm-url]
-[![Build Status][cli-img]][cli-url]
+[![test](https://github.com/csstools/stylelint-media-use-custom-media/actions/workflows/test.yml/badge.svg)](https://github.com/csstools/stylelint-media-use-custom-media/actions/workflows/test.yml)
 [![Support Chat][git-img]][git-url]
 
 [Media Use Custom Media] is a [stylelint] rule to enforce usage of custom media
@@ -151,8 +151,6 @@ and directly passed objects.
 }
 ```
 
-[cli-img]: https://img.shields.io/travis/csstools/stylelint-media-use-custom-media.svg
-[cli-url]: https://travis-ci.org/csstools/stylelint-media-use-custom-media
 [git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/stylelint/stylelint
 [npm-img]: https://img.shields.io/npm/v/stylelint-media-use-custom-media.svg
