@@ -1,6 +1,6 @@
 {
   "name": "stylelint-media-use-custom-media",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Enforce usage of custom media queries in CSS",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
@@ -16,7 +16,6 @@
     "index.mjs.map"
   ],
   "scripts": {
-    "prepublishOnly": "npm test",
     "pretest": "rollup -c .rollup.js --silent",
     "test": "npm run test:js && npm run test:tape",
     "test:js": "eslint src/*.js src/lib/*.js --cache --ignore-path .gitignore --quiet",
