@@ -41,7 +41,7 @@
     "tap-spec": "^5.0.0"
   },
   "peerDependencies": {
-    "stylelint": "10 - 14"
+    "stylelint": "10 - 15"
   },
   "eslintConfig": {
     "extends": "dev",
