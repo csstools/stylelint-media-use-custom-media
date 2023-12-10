@@ -1,8 +1,5 @@
 node_modules
-/index.*
-package-lock.json
 *.log*
-.*
 !.editorconfig
 !.gitignore
 !.rollup.js

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import postcss from 'postcss';
-import getCustomMediaFromRoot from './get-custom-media-from-root';
+import getCustomMediaFromRoot from './get-custom-media-from-root.mjs';
 
 /* Get Custom Media from CSS File
 /* ========================================================================== */

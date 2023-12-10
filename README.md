@@ -54,7 +54,7 @@ While the following patterns are considered violations:
 
 ### never
 
-If the first option is `"never"` or `false`, then [Media Use Custom Media]
+If the first option is `"never"`, then [Media Use Custom Media]
 requires all `@media` queries to not use Custom Media, and the following
 patterns are _not_ considered violations:
 

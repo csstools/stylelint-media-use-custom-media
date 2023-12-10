@@ -1,5 +1,10 @@
 # Changes to Media Use Custom Media
 
+### 4.0.0 (Dec 10, 2023)
+
+- Updated: peer `stylelint` to >=16 (breaking)
+- Removed `false` option, use `never` instead
+
 ### 3.0.0 (Dec 10, 2023)
 
 - Updated: peer `stylelint` to 10 - 15 (major)
