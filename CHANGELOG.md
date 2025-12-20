@@ -1,5 +1,9 @@
 # Changes to Media Use Custom Media
 
+### 4.1.0 (Dec 20, 2025)
+
+- Handle default export when using ES modules
+
 ### 4.0.0 (Dec 10, 2023)
 
 - Updated: peer `stylelint` to >=16 (breaking)
