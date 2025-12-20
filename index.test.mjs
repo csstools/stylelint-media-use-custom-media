@@ -138,3 +138,18 @@ testRule({
 		{ importFrom: { customMedia: { '--sm': '(min-width: 40em)' } } }
 	], accept: accept, reject: reject
 });
+
+testRule({
+	plugins: ['./src/index.mjs'], ruleName: rule.ruleName, config: [
+		'always-known',
+		{ importFrom: ['./test/import-custom-media-named.js'] }
+	], accept: accept, reject: reject
+});
+
+testRule({
+	plugins: ['./src/index.mjs'], ruleName: rule.ruleName, config: [
+		'always-known',
+		{ importFrom: ['./test/import-custom-media-default.js'] }
+	], accept: accept, reject: reject
+});
+
