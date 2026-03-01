@@ -22,7 +22,7 @@ export default root => {
 const customMediaNameRegExp = /^custom-media$/i;
 
 // match the custom selector params
-const customMediaParamsRegExp = /^(--[A-z][\w-]*)\s+([\W\w]+)\s*$/;
+const customMediaParamsRegExp = /^(--[a-zA-Z][\w-]*)\s+([\W\w]+)\s*$/;
 
 // whether the atrule is a custom selector
 const isCustomMedia = node => node.type === 'atrule' && customMediaNameRegExp.test(node.name) && customMediaParamsRegExp.test(node.params);
